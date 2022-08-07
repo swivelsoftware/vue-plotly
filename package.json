@@ -1,6 +1,6 @@
 {
   "name": "@swivel-admin/vue-plotly",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open",
@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "core-js": "^3.6.4",
-    "plotly.js-dist": "^2.12.1",
+    "plotly.js-dist-min": "^2.13.3",
     "vue": "^2.6.11",
     "vue-resize-directive": "^1.2.0"
   },
@@ -52,6 +52,7 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "vue-cli-plugin-component": "^1.12.2",
+    "vue-cli-plugin-webpack-bundle-analyzer": "^4.0.0",
     "vue-draggable-resizable": "^2.1.0",
     "vue-highlight.js": "^3.1.0",
     "vue-json-editor": "^1.4.0",
